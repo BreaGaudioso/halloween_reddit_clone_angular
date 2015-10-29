@@ -1,4 +1,4 @@
-var app = angular.module("redditApp", []);
+var app = angular.module("redditApp");
 app.controller("RedditController", function($scope) {
   $scope.greeting = "Welcome to Costume Competition.";
   $scope.sort= "-votes",
